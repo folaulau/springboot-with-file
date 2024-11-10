@@ -37,7 +37,7 @@ public class HomeController {
 
         if(id == null) {
             log.error("File ID is required");
-            fileName = "superman.jpeg";
+            fileName = "house.webp";
         }else {
             fileName = "image"+id+".jpeg";
         }
